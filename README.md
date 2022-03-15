@@ -12,7 +12,7 @@ support platform : All (Android、iOS、Windows、Mac、Linux、Web)
   flutter_hw_obs:
     git:
       url: https://github.com/loongwind/flutter_hw_obs.git
-      ref: 0.0.1
+      ref: 0.0.2
 ```
 
 ## Usage
