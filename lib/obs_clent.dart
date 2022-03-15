@@ -49,7 +49,7 @@ class OBSClient {
 
     try {
       Dio dio = _getDio();
-      await dio.put(url, data: data, options: options);
+      await dio.put(url, data: Stream.fromIterable(data.map((e) => [e])), options: options);
 
       OBSResponse obsResponse = OBSResponse();
       obsResponse.md5 = contentMD5;
