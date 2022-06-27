@@ -44,3 +44,6 @@ class OBSResponse{
   String? md5;
 }
 ```
+## TODO
+- [ ] add debug switch
+- [ ] add upload progress
